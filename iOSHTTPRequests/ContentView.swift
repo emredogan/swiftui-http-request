@@ -16,6 +16,22 @@ struct ContentView: View {
             Text("Hello, world!")
         }
         .padding()
+		.task {
+			// This one using generic methods to make the same request
+			let response = await HTTPExample.samplePostRequest()
+			
+			switch response {
+				case .success(let result):
+					print(result.title)
+				case .failure(let error):
+					print(error.localizedDescription)
+			}
+		}
+		.onAppear {
+			
+			// This one uses the classic way of making post request in the initializer
+			let example = HTTPExample()
+		}
     }
 }
 

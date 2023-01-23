@@ -11,6 +11,12 @@
 		633E2BD9297D975A00AE5C74 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 633E2BD8297D975A00AE5C74 /* ContentView.swift */; };
 		633E2BDB297D975B00AE5C74 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 633E2BDA297D975B00AE5C74 /* Assets.xcassets */; };
 		633E2BDE297D975B00AE5C74 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 633E2BDD297D975B00AE5C74 /* Preview Assets.xcassets */; };
+		633E2BE5297D97A900AE5C74 /* HTTPExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 633E2BE4297D97A900AE5C74 /* HTTPExample.swift */; };
+		633E2BE7297E7C4B00AE5C74 /* APIError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 633E2BE6297E7C4B00AE5C74 /* APIError.swift */; };
+		633E2BE9297E7C8400AE5C74 /* Error+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 633E2BE8297E7C8400AE5C74 /* Error+Extension.swift */; };
+		633E2BEB297E9AA800AE5C74 /* SignInResponseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 633E2BEA297E9AA800AE5C74 /* SignInResponseModel.swift */; };
+		633E2BED297E9AE700AE5C74 /* SignInRequestModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 633E2BEC297E9AE700AE5C74 /* SignInRequestModel.swift */; };
+		633E2BEF297E9BB700AE5C74 /* SampleURL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 633E2BEE297E9BB700AE5C74 /* SampleURL.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +25,12 @@
 		633E2BD8297D975A00AE5C74 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		633E2BDA297D975B00AE5C74 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		633E2BDD297D975B00AE5C74 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		633E2BE4297D97A900AE5C74 /* HTTPExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTTPExample.swift; sourceTree = "<group>"; };
+		633E2BE6297E7C4B00AE5C74 /* APIError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIError.swift; sourceTree = "<group>"; };
+		633E2BE8297E7C8400AE5C74 /* Error+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Error+Extension.swift"; sourceTree = "<group>"; };
+		633E2BEA297E9AA800AE5C74 /* SignInResponseModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInResponseModel.swift; sourceTree = "<group>"; };
+		633E2BEC297E9AE700AE5C74 /* SignInRequestModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInRequestModel.swift; sourceTree = "<group>"; };
+		633E2BEE297E9BB700AE5C74 /* SampleURL.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleURL.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +65,12 @@
 			children = (
 				633E2BD6297D975A00AE5C74 /* iOSHTTPRequestsApp.swift */,
 				633E2BD8297D975A00AE5C74 /* ContentView.swift */,
+				633E2BE4297D97A900AE5C74 /* HTTPExample.swift */,
+				633E2BE6297E7C4B00AE5C74 /* APIError.swift */,
+				633E2BEA297E9AA800AE5C74 /* SignInResponseModel.swift */,
+				633E2BEC297E9AE700AE5C74 /* SignInRequestModel.swift */,
+				633E2BE8297E7C8400AE5C74 /* Error+Extension.swift */,
+				633E2BEE297E9BB700AE5C74 /* SampleURL.swift */,
 				633E2BDA297D975B00AE5C74 /* Assets.xcassets */,
 				633E2BDC297D975B00AE5C74 /* Preview Content */,
 			);
@@ -137,8 +155,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				633E2BED297E9AE700AE5C74 /* SignInRequestModel.swift in Sources */,
+				633E2BEB297E9AA800AE5C74 /* SignInResponseModel.swift in Sources */,
+				633E2BE5297D97A900AE5C74 /* HTTPExample.swift in Sources */,
+				633E2BE7297E7C4B00AE5C74 /* APIError.swift in Sources */,
 				633E2BD9297D975A00AE5C74 /* ContentView.swift in Sources */,
 				633E2BD7297D975A00AE5C74 /* iOSHTTPRequestsApp.swift in Sources */,
+				633E2BE9297E7C8400AE5C74 /* Error+Extension.swift in Sources */,
+				633E2BEF297E9BB700AE5C74 /* SampleURL.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
